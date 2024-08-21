@@ -1,0 +1,256 @@
+/*Comunes*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #1A1A1A;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/*Header*/
+header{
+    background-color: #736C56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    width: 60%;
+}
+input[name="buscar"]{
+    border: 0px;
+    border-radius: 20px;
+}
+header>div:nth-child(3){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14%;
+}
+header>div:nth-child(3)>div:nth-child(1){
+    width: 80%;
+    display: flex;
+}
+header>div:nth-child(3)>div:nth-child(1)>div:nth-child(1){
+    margin-top: 1%;
+}
+/*Footer*/
+footer{
+    background-color: #746B6B;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+footer>div:nth-child(1){
+    width: 70%;
+}
+
+/* Index */
+#portada{
+    height: 93vh;
+}
+/* Clientes */
+/* Formulario */
+#form{
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+
+
+.form-box{
+    width: 700px;
+    margin: 100px auto;
+    padding: 40px;
+    background: rgba(0, 0, 0, .6);
+    border-radius: 10px;
+}
+
+.form-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.form-box .user-box{
+    position: relative;
+}
+
+.form-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.form-box .user-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.form-box .user-box input:focus~label,
+.form-box .user-box input:valid~label,
+.form-box .user-box input~label{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator, input[type="time"]::-webkit-calendar-picker-indicator{
+
+
+    cursor: pointer;
+
+    border-radius: 4px;
+
+    margin-right: 2px;
+
+    opacity: 0.9;
+
+    filter: invert(0.9);
+
+}
+
+
+.form-box form input[type="submit"]{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 25px;
+    letter-spacing: 4px;
+}
+
+.form-box input[type="submit"]:hover{
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25 #03e9f4, 0 0 50px #03e9f4 0 0 75px #03e9f4;
+}
+
+.idCliente{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.idCliente select{
+    margin-top: 15px;
+}
+
+table{
+    width: 37%;
+    margin: auto;
+}
+
+
+/* Noticias */
+    /* seccion mostrar */
+    #tabla{
+        text-align: center;
+    }
+    #tabla .noticiaCompleta{
+        margin-top: 181px;
+    }
+
+    .imagenes img {
+      width: 200px;
+      height: 150px;
+    }
+  
+
+    #enlacesPaginas{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    #enlacesPaginas a{
+        padding: 5px;
+        background-color: beige;
+        color: black;
+        border-radius: 15px;
+    }
+    .mostrar{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .noticias{
+        width: 30%;
+        text-align: center;
+    }
+    .noticias img{
+        width: 450px;
+      height: 275px;
+    }
+    .cita{
+        border:solid 2px;
+        text-align:center;
+        width:50%
+    }
+    .noticia{
+        border:solid 2px;
+        text-align:center;
+        width:100%
+    }
+    .noticia p{
+        width: 100%;
+    }
+    .noticiaCompleta{
+        width: 80%;
+        margin: auto;
+    }
+    .noticiaCompleta img{
+        width: 78%;
+        height: 100%;
+    }
+    h2{
+        text-align: center;
+    }
+
+    #cerrar{
+        color: #1A1A1A;
+        font-size: 1rem;
+    }
+    .imagenes{
+        margin-top: 50px;
+        text-align: center;
+    }
+    #labelModificarCliente{
+        margin-top: 10px;
+    }
